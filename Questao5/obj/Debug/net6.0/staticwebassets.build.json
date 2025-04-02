@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "3sXMMoJLu8yOFA6iyAJjvmIeeAs7sQonG/nY8rglLaU=",
+  "Hash": "Lyi8Wfb9aUi1e0qk3fcjBzJTyvfUY9bKWcGKwvHy1Zs=",
   "Source": "Questao5",
   "BasePath": "_content/Questao5",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

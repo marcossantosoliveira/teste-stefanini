@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\teste\\Questao5\\Questao5.csproj": {}
+    "C:\\sistemas diversos visualstudio\\marcossantosoliveira\\teste-stefanini\\Questao5\\Questao5.csproj": {}
   },
   "projects": {
-    "C:\\teste\\Questao5\\Questao5.csproj": {
+    "C:\\sistemas diversos visualstudio\\marcossantosoliveira\\teste-stefanini\\Questao5\\Questao5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\teste\\Questao5\\Questao5.csproj",
+        "projectUniqueName": "C:\\sistemas diversos visualstudio\\marcossantosoliveira\\teste-stefanini\\Questao5\\Questao5.csproj",
         "projectName": "Questao5",
-        "projectPath": "C:\\teste\\Questao5\\Questao5.csproj",
-        "packagesPath": "C:\\Users\\f0033197\\.nuget\\packages\\",
-        "outputPath": "C:\\teste\\Questao5\\obj\\",
+        "projectPath": "C:\\sistemas diversos visualstudio\\marcossantosoliveira\\teste-stefanini\\Questao5\\Questao5.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\sistemas diversos visualstudio\\marcossantosoliveira\\teste-stefanini\\Questao5\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\f0033197\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,9 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Ailos/PIX/_packaging/Ailos.PIX.Shared/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Ailos/_packaging/Ailos/nuget/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -36,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -112,6 +121,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -120,7 +147,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
