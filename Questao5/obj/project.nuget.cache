@@ -1,17 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "vfr/yqHjIk4=",
+  "dgSpecHash": "Vv9crO/pj98=",
   "success": true,
   "projectFilePath": "C:\\sistemas diversos visualstudio\\marcossantosoliveira\\teste-stefanini\\Questao5\\Questao5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marco\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\coverlet.msbuild\\3.1.2\\coverlet.msbuild.3.1.2.nupkg.sha512",
-    "C:\\Users\\marco\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.1\\microsoft.bcl.asyncinterfaces.9.0.1.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.codecoverage\\17.4.0-preview-20220726-02\\microsoft.codecoverage.17.4.0-preview-20220726-02.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.data.sqlite\\3.1.6\\microsoft.data.sqlite.3.1.6.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.data.sqlite.core\\3.1.6\\microsoft.data.sqlite.core.3.1.6.nupkg.sha512",
@@ -118,11 +120,7 @@
     "C:\\Users\\marco\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "C:\\Users\\marco\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512",
-    "C:\\Users\\marco\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\marco\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+    "C:\\Users\\marco\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
   "logs": []
 }

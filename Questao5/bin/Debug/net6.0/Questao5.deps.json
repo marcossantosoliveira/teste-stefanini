@@ -8,8 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "Questao5/1.0.0": {
         "dependencies": {
-          "Dapper": "2.0.35",
+          "Dapper": "2.1.66",
           "FluentAssertions": "6.7.0",
+          "FluentValidation": "11.11.0",
           "MediatR": "11.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.Data.Sqlite": "3.1.6",
@@ -39,14 +40,15 @@
       },
       "coverlet.collector/3.1.2": {},
       "coverlet.msbuild/3.1.2": {},
-      "Dapper/2.0.35": {
+      "Dapper/2.1.66": {
         "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.1",
           "System.Reflection.Emit.Lightweight": "4.7.0"
         },
         "runtime": {
           "lib/netstandard2.0/Dapper.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.35.21366"
+            "fileVersion": "2.1.66.48463"
           }
         }
       },
@@ -58,6 +60,14 @@
           "lib/net6.0/FluentAssertions.dll": {
             "assemblyVersion": "6.7.0.0",
             "fileVersion": "6.7.0.0"
+          }
+        }
+      },
+      "FluentValidation/11.11.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.11.0.0"
           }
         }
       },
@@ -89,6 +99,14 @@
           "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/9.0.1": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "9.0.0.1",
+            "fileVersion": "9.0.124.61010"
           }
         }
       },
@@ -1335,12 +1353,12 @@
       "path": "coverlet.msbuild/3.1.2",
       "hashPath": "coverlet.msbuild.3.1.2.nupkg.sha512"
     },
-    "Dapper/2.0.35": {
+    "Dapper/2.1.66": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/xAgd8BO8EDnJ0sURWEV8LptHHvTKxoYiT63YUF2U/yWE2VyUCqR2jcrtEyNngT9Kjzppecz95UKiBla3PnR7g==",
-      "path": "dapper/2.0.35",
-      "hashPath": "dapper.2.0.35.nupkg.sha512"
+      "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "path": "dapper/2.1.66",
+      "hashPath": "dapper.2.1.66.nupkg.sha512"
     },
     "FluentAssertions/6.7.0": {
       "type": "package",
@@ -1348,6 +1366,13 @@
       "sha512": "sha512-PWbow/R3MnYDP8UW7zh/w80rGb+1NufGoNJeuzouTo2bqpvwNTFxbDwF6XWfFZ5IuquL2225Um+qSyZ8jVsT+w==",
       "path": "fluentassertions/6.7.0",
       "hashPath": "fluentassertions.6.7.0.nupkg.sha512"
+    },
+    "FluentValidation/11.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+      "path": "fluentvalidation/11.11.0",
+      "hashPath": "fluentvalidation.11.11.0.nupkg.sha512"
     },
     "MediatR/11.0.0": {
       "type": "package",
@@ -1369,6 +1394,13 @@
       "sha512": "sha512-jfD2NBYvP+HiUil2DWfM4bn+bCLp4H2xvoc9aorcnn2Jpgz7Ey8RyYMpgqeF3bs6CP6t8pzb6WkF5NFF/1RLHA==",
       "path": "mediatr.extensions.microsoft.dependencyinjection/11.0.0",
       "hashPath": "mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IVkmUqf+KzbuXKrxi2tyQlg11RArYk26t2eU5cHekff+7Ao09vH8vt8idC0BJSMnpiRV2OK66zM2EwJU6Tm5Cw==",
+      "path": "microsoft.bcl.asyncinterfaces/9.0.1",
+      "hashPath": "microsoft.bcl.asyncinterfaces.9.0.1.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.4.0-preview-20220726-02": {
       "type": "package",

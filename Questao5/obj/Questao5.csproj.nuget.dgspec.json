@@ -53,11 +53,15 @@
           "dependencies": {
             "Dapper": {
               "target": "Package",
-              "version": "[2.0.35, )"
+              "version": "[2.1.66, )"
             },
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.7.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
             },
             "MediatR": {
               "target": "Package",
@@ -121,24 +125,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

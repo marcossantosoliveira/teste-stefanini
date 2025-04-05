@@ -291,3 +291,5 @@ C:\sistemas diversos visualstudio\marcossantosoliveira\teste-stefanini\Questao5\
 C:\sistemas diversos visualstudio\marcossantosoliveira\teste-stefanini\Questao5\obj\Debug\net6.0\Questao5.pdb
 C:\sistemas diversos visualstudio\marcossantosoliveira\teste-stefanini\Questao5\obj\Debug\net6.0\Questao5.genruntimeconfig.cache
 C:\sistemas diversos visualstudio\marcossantosoliveira\teste-stefanini\Questao5\obj\Debug\net6.0\ref\Questao5.dll
+C:\sistemas diversos visualstudio\marcossantosoliveira\teste-stefanini\Questao5\bin\Debug\net6.0\FluentValidation.dll
+C:\sistemas diversos visualstudio\marcossantosoliveira\teste-stefanini\Questao5\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
